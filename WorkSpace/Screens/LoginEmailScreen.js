@@ -14,7 +14,7 @@ Email:'',
     render() {
         return (
                 <View style={[SSC.container, { justifyContent: 'space-around', alignItems: 'center', }]}>
-                    <Image source={require('../Image/logo.svg')}
+                    <Image source={require('../Image/logo.png')}
                         style={{ width: 276, height: 40 }} />
                     <Text style={SSC.txt}>Se connecter par</Text>
                     <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around', }}>
